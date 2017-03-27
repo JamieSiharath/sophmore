@@ -1,0 +1,558 @@
+/*Jamie Siharath, Period 4, Web Design I
+
+color scheme
+
+Green - #95ae94
+Darker Green - #457458
+
+css reset by meyer web
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*/
+
+body{
+	font-size: 1em;
+	font-weight: normal;
+  font-family: Helvetica, Arial,"Trebuchet MS", sans-serif;
+
+	margin: 0 auto;
+  margin-left: 11%;
+  margin-right: 10%;
+	border: none;
+
+  background-image: url('../images/bg.png');
+    }
+
+
+h1  {
+  text-align: center;
+
+	font-size: 2.5em;
+	font-weight: bold;
+
+  border: none;
+  width: auto;
+
+  color: #457458 
+    }
+
+h2  {
+  text-align: center;
+
+	font-size: 1.8em;
+	font-weight: normal;
+
+	border: none;
+	width: auto;
+
+  color: #457458; 
+    }
+
+h3  {
+  color: ;
+    }
+    h1,h2,h3  { 
+    font-family: Rockwell, Century, "Courier New",serif;
+              }
+p   {
+  text-align: left;
+	
+  font-size: 1em;
+	font-weight: normal;
+
+  padding-left: 10%;
+  padding-right: 10%;
+  width: auto;
+	
+  color: #457458;
+  border: none;
+    }
+
+div {
+	text-align: left;
+
+  font-size: 1.3em;
+	font-weight: normal;
+
+  padding: 20%;
+
+  border: solid 1px black;
+  width: auto;
+    }	
+
+
+
+
+
+#main {
+  background: #EDF1F4;
+    }
+
+#overview { 
+  font-weight:none;
+  
+  margin-left: 20%;
+    margin-right: 20%;
+ 
+  border: none;
+    padding: 1em;
+    padding-top: 0.001px;
+    padding-bottom: 9px;
+
+  border: 2px #95ae94;
+  border: none;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;   
+
+  background: #95ae94;
+  color: white;
+    }
+
+
+
+/*NAV MENU*/
+nav {
+  clear: left;
+ padding-left: 22%;
+    }
+
+nav ul { 
+  list-style-type: none;
+  margin-left: 1em;
+    }
+
+nav ul li{  /*Space between tabs*/
+  float: left;
+  padding: 6px 6px 0px 6px;
+    }
+
+nav ul li a { 
+  text-decoration: none; 
+  
+  padding: 0.25em 1em 0.35em 1em;
+
+  border: none;
+  border-top-left-radius: 1em 1em; /* rounded corner! */
+  border-top-right-radius: 1em 1em; /* another rounded corner! */
+  border-bottom-right-radius: 1em 1em;
+  border-bottom-left-radius: 1em 1em; 
+
+  background: white;   
+
+    }
+
+nav ul li a:hover, nav ul li a:focus { 
+  color: white;
+  background: #95ae94;
+
+    }
+
+
+
+
+/*ACCESSABILITY TABLE*/
+main{
+  clear: left;
+  padding: 1em;
+
+    }
+
+    }
+main, main p{
+  clear: left;
+    }
+
+ul  {
+	font-size: 1em; 
+	color: black;
+  list-style-type: none;
+    }
+
+li  {
+    }
+
+table{
+	border: 2px #000;
+	border-color: #e0d1bd; 
+    }	
+
+th  {
+	border: solid 1px #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+td  {
+	border: solid 1px #000;
+	background-color: #fffef0;
+    }
+
+caption{
+	border: solid 1px #000;
+  border-width: 5px;
+  border-style: solid;
+  border: none;
+    margin: 7px !important;
+    padding: 0.5em;
+
+  background-color: white;
+    }
+
+div#access {
+  float: center;
+
+   padding: 1px 0px 1px 0px;
+   margin: 2% 27% 0% 20%;
+
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em; 
+
+   
+}
+
+
+
+
+/*LINKS*/
+a { 
+  color: black;
+  }
+
+ a:hover { 
+  color: white;
+  background-color: #95ae94;
+  }
+
+
+
+
+
+/*PSEUDO CLASSES*/
+div#skipnav {
+  font-weight:none;
+  font-size: 12px;
+
+  position: relative; 
+  top: 5px;
+  left: 5px;
+  right: 12.5%;
+
+  color: black;
+  background: #95ae94;
+  border: none;
+  padding: 0.7em;
+  width: 10em;
+}
+
+    .info { 
+    font-size: 1em;
+    font-weight:none;
+    text-align: center;
+    
+    border: none;
+    margin: 1%;
+    padding: 3px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 40%;  
+   
+    float: left;
+    color: black;
+    background: #95ae94;
+  }
+
+    .temp { 
+    color: black;
+    font-weight:none;
+    border: none;
+    padding: 0.5em;
+    font-style: italic;
+  }
+
+    #resources {
+  	font-size: 1em;
+  	margin-left: 7%;
+  	list-style-type: none;
+  }
+
+
+
+
+
+/*CLOCK*/
+  div#clock { 
+        font-size: 3em;
+        font-family: "Courier New";
+        text-align: center;
+
+      padding: 25px;
+      margin: 5% 10% 2% 10%;
+
+    border: none;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;  
+  
+    box-shadow: 4px 4px 4px #999999
+    
+  color: #FFFFFF;
+    background-color: #FFFFFF;
+    }
+
+button {
+  font-size: 1em;
+  font-weight: bold;
+
+  padding: 0.4em 1em 0.4em 1em;
+
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;  
+  
+  border: none;
+    box-shadow: 4px 4px 4px #999999
+    
+  color: #95ae94;
+  background-color:#FFFFFF;
+
+    }
+
+button:hover, button:focus{ 
+  cursor: pointer; /* displays a hand */
+
+  color: #FFFFFF;
+  background-color: #95ae94;
+    }
+div#clockbutton  {
+    font-size: 1em;
+  font-weight: bold;
+
+  padding: 0.4em 1em 0.4em 1em;
+
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;  
+  
+  position: absolute;
+
+  border: none;
+    box-shadow: 4px 4px 4px #999999
+    
+  color: #95ae94;
+  background-color:#FFFFFF;
+}
+
+
+
+/*VIDEO PLAYER*/
+div#myplayer {
+  text-align: center;
+
+   padding: 0.4em 1em 2em 1em;
+
+    border: none;
+}
+
+
+
+div.item {
+ padding: 0.7em 2em 0.7em 2em;
+
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;  
+
+      margin: 0em 1em 0em 1em;
+      border: none;
+      float: left;
+
+  color: black;
+  background-color:#FFFFFF;
+}
+
+div.price{
+ padding: 0.4em 1em 0.4em 1em;
+
+      font-size: 0.90em;
+      border: none;
+    
+  color: black;
+  background-color:#FFFFFF;
+}
+
+div.order{
+ padding: 0.4em 1em 0.4em 1em;
+
+      font-size: 0.90em;
+      border: none;
+    
+  color: black;
+  background-color:#FFFFFF;
+}
+
+div#summary {
+  border: none;
+}
+
+div.checkbox {
+    font-size: 0.75em;
+  font-weight: none;
+
+  padding: 0.4em 13.6em 1.6em 1em;
+    
+    border-top-right-radius: 1em 1em; /* rounded corner! */
+    border-bottom-right-radius: 1em 1em;
+  
+  float: left;
+
+  border: none;
+    
+  color: black;
+  background-color:#FFFFFF;
+}
+
+div.radio {
+    font-size: 0.75em;
+  font-weight: none;
+
+  padding: 0.4em 8em 0.4em 1em;
+
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-bottom-left-radius: 1em 1em;
+  
+  float: left;
+
+  border: none;
+    
+  color: black;
+  background-color:#FFFFFF;
+}
+
+div.notes{
+    font-size: 0.75em;
+  font-weight: none;
+
+  padding: 0.4em 1em 0.4em 1em;
+
+   border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+  
+  float: center;
+
+  border: none;
+    
+  color: black;
+  background-color:#FFFFFF;
+}
+
+div.s-state{
+    font-size: 0.75em;
+  font-weight: none;
+
+  padding: 0.4em 1em 0.4em 1em;
+
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;  
+  
+  float: center;
+
+  border: none;
+    
+  color: black;
+  background-color:#FFFFFF;
+}
+
+div.calc{
+    font-size: 0.75em;
+  font-weight: none;
+
+  padding: 0.4em 1em 0.4em 1em;
+
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;  
+  
+  float: left;
+
+  border: none;
+    
+  color: black;
+  background-color:#FFFFFF;
+}
+
+div#results {
+  padding: 0.4em 1em 3.5em 11.5em;
+
+    border-bottom-right-radius: 1em 1em;
+    border-bottom-left-radius: 1em 1em;  
+
+      border: none;
+    
+  color: black;
+  background-color:#FFFFFF;
+}
+}
+
+
+
+
+
+
+
+</style>
